@@ -1,6 +1,7 @@
 #!/bin/bash
 #This script will rename files for the given directory. Removing all illegal characters.
 #Usage ./SanitizeFileNames.sh /directory/to/run
+#perl -pi -e 's/\r\n|\n|\r/\n/g'   file-to-convert  # Convert to UNIX
 verbose=0
  
 #Set/clear variables
